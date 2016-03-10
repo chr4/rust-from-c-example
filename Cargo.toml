@@ -1,0 +1,10 @@
+[package]
+name = "test"
+version = "0.1.0"
+authors = ["Chris Aumann <me@chr4.org>"]
+
+[dependencies]
+libc = "0.2.0"
+
+[lib]
+crate_type = ["staticlib"]
